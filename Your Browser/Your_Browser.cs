@@ -24,17 +24,21 @@ namespace Your_Browser
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+           
         }
-
+        private void CheckEnter(object sender, System.Windows.Forms.KeyPressEventArgs e)
+        {
+            
+        }
         private void button2_Click(object sender, EventArgs e)
         {
+            webBrowser1.GoForward();
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            webBrowser1.GoBack();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -44,7 +48,7 @@ namespace Your_Browser
 
         private void Your_Browser_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("");
+            webBrowser1.Navigate("https://www.bing.com/");
         }
     }
 }

@@ -39,10 +39,10 @@ namespace Your_Browser
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1206, 0);
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Location = new System.Drawing.Point(1199, 0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(53, 23);
+            this.button3.Size = new System.Drawing.Size(65, 24);
             this.button3.TabIndex = 9;
             this.button3.Text = "Search";
             this.button3.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@ namespace Your_Browser
             // 
             // button2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(22, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(23, 23);
+            this.button2.Size = new System.Drawing.Size(23, 24);
             this.button2.TabIndex = 7;
             this.button2.Text = ">";
             this.button2.UseVisualStyleBackColor = true;
@@ -72,10 +72,10 @@ namespace Your_Browser
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(23, 23);
+            this.button1.Size = new System.Drawing.Size(23, 24);
             this.button1.TabIndex = 6;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = true;
